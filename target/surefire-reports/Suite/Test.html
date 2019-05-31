@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 31 16:22:25 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>282 seconds (282800 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.capsulecrm.tests.AccountSettingsPageTest.varifyAccPage()'><b>varifyAccPage</b><br>Test class: com.capsulecrm.tests.AccountSettingsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.capsulecrm.tests.AccountSettingsPageTest@50f8360d</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.CasesPageTest.varifyCasesPageTitle()'><b>varifyCasesPageTitle</b><br>Test class: com.capsulecrm.tests.CasesPageTest<br/>
+<a href="#Output-2029372696" onClick='toggleBox("Output-2029372696", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2029372696" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2029372696">
+varified case page title<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.capsulecrm.tests.CasesPageTest@61dc03ce</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.CasesPageTest.varifyCreateCases()'><b>varifyCreateCases</b><br>Test class: com.capsulecrm.tests.CasesPageTest<br>Parameters: prasad challa, case1, car<br/>
+<a href="#Output-1842943543" onClick='toggleBox("Output-1842943543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1842943543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1842943543">
+cases created<br/>
+case name matched<br/>
+person name matched<br/>
+case name matched<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.capsulecrm.tests.CasesPageTest@61dc03ce</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.PersonPageTest.verifyAddPerson()'><b>verifyAddPerson</b><br>Test class: com.capsulecrm.tests.PersonPageTest<br>Parameters: Mr, Ganga, Prasad, 1.234567809E9, prasad.ganga@gmail.com<br/>
+<a href="#Output-115086468" onClick='toggleBox("Output-115086468", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-115086468" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-115086468">
+New Person created<br/>
+Navigate to people page<br/>
+varified add new person<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.capsulecrm.tests.PersonPageTest@737996a0</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.AccountSettingsPageTest.verifyAllSubPages()'><b>verifyAllSubPages</b><br>Test class: com.capsulecrm.tests.AccountSettingsPageTest<br/>
+<a href="#Output-1740095856" onClick='toggleBox("Output-1740095856", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1740095856" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1740095856">
+AccountPage varified<br/>
+InvaoicePage varified<br/>
+ExportPage varified<br/>
+AppearancePage varified<br/>
+MailDropBoxPage varified<br/>
+UsersPage varified<br/>
+OpportunitiesPage varified<br/>
+TracksPage varified<br/>
+TaskCategoriesPage varified<br/>
+CustomFieldsPage varified<br/>
+TagsPage varified<br/>
+IntegrationsPage varified<br/>
+TrashPage varified<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.capsulecrm.tests.AccountSettingsPageTest@50f8360d</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.AccountSettingsPageTest.verifyAppearancePage()'><b>verifyAppearancePage</b><br>Test class: com.capsulecrm.tests.AccountSettingsPageTest<br/>
+<a href="#Output-1018742990" onClick='toggleBox("Output-1018742990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1018742990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1018742990">
+verifyAppearancePage<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.capsulecrm.tests.AccountSettingsPageTest@50f8360d</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.AccountSettingsPageTest.verifyIntegrationsPage()'><b>verifyIntegrationsPage</b><br>Test class: com.capsulecrm.tests.AccountSettingsPageTest<br/>
+<a href="#Output-2073069810" onClick='toggleBox("Output-2073069810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2073069810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2073069810">
+verifyIntegrationsPage<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.capsulecrm.tests.AccountSettingsPageTest@50f8360d</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.AccountSettingsPageTest.verifyOpportunitiesPage()'><b>verifyOpportunitiesPage</b><br>Test class: com.capsulecrm.tests.AccountSettingsPageTest<br>Parameters: AutomationTest, 30<br/>
+<a href="#Output-886333120" onClick='toggleBox("Output-886333120", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-886333120" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-886333120">
+verifyOpportunitiesPage<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.capsulecrm.tests.AccountSettingsPageTest@50f8360d</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.PersonPageTest.verifyPesrsonsTitle()'><b>verifyPesrsonsTitle</b><br>Test class: com.capsulecrm.tests.PersonPageTest<br/>
+<a href="#Output-877612522" onClick='toggleBox("Output-877612522", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-877612522" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-877612522">
+varified case page title<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.capsulecrm.tests.PersonPageTest@737996a0</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.AccountSettingsPageTest.verifyTagsPage()'><b>verifyTagsPage</b><br>Test class: com.capsulecrm.tests.AccountSettingsPageTest<br>Parameters: Tag1<br/>
+<a href="#Output-898655932" onClick='toggleBox("Output-898655932", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-898655932" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-898655932">
+verifyTagsPage<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.capsulecrm.tests.AccountSettingsPageTest@50f8360d</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.AccountSettingsPageTest.verifyTaskCategoryPage()'><b>verifyTaskCategoryPage</b><br>Test class: com.capsulecrm.tests.AccountSettingsPageTest<br>Parameters: Categoty1<br/>
+<a href="#Output-1288163341" onClick='toggleBox("Output-1288163341", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1288163341" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1288163341">
+verifyTaskCategoryPage<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.capsulecrm.tests.AccountSettingsPageTest@50f8360d</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.AccountSettingsPageTest.verifyTracksPage()'><b>verifyTracksPage</b><br>Test class: com.capsulecrm.tests.AccountSettingsPageTest<br>Parameters: Track1, Task1<br/>
+<a href="#Output-766621271" onClick='toggleBox("Output-766621271", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-766621271" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-766621271">
+verifyTracksPage<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.capsulecrm.tests.AccountSettingsPageTest@50f8360d</td></tr>
+<tr>
+<td title='com.capsulecrm.tests.AccountSettingsPageTest.verifyUserPage()'><b>verifyUserPage</b><br>Test class: com.capsulecrm.tests.AccountSettingsPageTest<br>Parameters: Ganga, Prasad, challaprasad01@gmail.com, gangaprasad<br/>
+<a href="#Output-1276894402" onClick='toggleBox("Output-1276894402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1276894402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1276894402">
+verifyUserPage<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.capsulecrm.tests.AccountSettingsPageTest@50f8360d</td></tr>
+</table><p>
+</body>
+</html>

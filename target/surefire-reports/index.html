@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\NaveenAssignments\capsulecrm.Assignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.AccountSettingsPageTest" hash-for-method="varifyAccPage">varifyAccPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.CasesPageTest" hash-for-method="varifyCasesPageTitle">varifyCasesPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.CasesPageTest" hash-for-method="varifyCreateCases(prasad challa, case1, car)">varifyCreateCases(prasad challa, case1, car)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.PersonPageTest" hash-for-method="verifyAddPerson(Mr, Ganga, Prasad, 1.234567809E9, prasad.ganga@gmail.com)">verifyAddPerson(Mr, Ganga, Prasad, 1.234567809E9, prasad.ganga@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.AccountSettingsPageTest" hash-for-method="verifyAllSubPages">verifyAllSubPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.AccountSettingsPageTest" hash-for-method="verifyAppearancePage">verifyAppearancePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.AccountSettingsPageTest" hash-for-method="verifyIntegrationsPage">verifyIntegrationsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.AccountSettingsPageTest" hash-for-method="verifyOpportunitiesPage(AutomationTest, 30)">verifyOpportunitiesPage(AutomationTest, 30)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.PersonPageTest" hash-for-method="verifyPesrsonsTitle">verifyPesrsonsTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.AccountSettingsPageTest" hash-for-method="verifyTagsPage(Tag1)">verifyTagsPage(Tag1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.AccountSettingsPageTest" hash-for-method="verifyTaskCategoryPage(Categoty1)">verifyTaskCategoryPage(Categoty1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.AccountSettingsPageTest" hash-for-method="verifyTracksPage(Track1, Task1)">verifyTracksPage(Track1, Task1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.capsulecrm.tests.AccountSettingsPageTest" hash-for-method="verifyUserPage(Ganga, Prasad, challaprasad01@gmail.com, gangaprasad)">verifyUserPage(Ganga, Prasad, challaprasad01@gmail.com, gangaprasad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.capsulecrm.tests.CasesPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="varifyCasesPageTitle">
+                  </a> <!-- varifyCasesPageTitle -->
+                  <span class="method-name">varifyCasesPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="varifyCreateCases(prasad challa, case1, car)">
+                  </a> <!-- varifyCreateCases(prasad challa, case1, car) -->
+                  <span class="method-name">varifyCreateCases</span>
+                  <span class="parameters">(prasad challa, case1, car)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.capsulecrm.tests.PersonPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddPerson(Mr, Ganga, Prasad, 1.234567809E9, prasad.ganga@gmail.com)">
+                  </a> <!-- verifyAddPerson(Mr, Ganga, Prasad, 1.234567809E9, prasad.ganga@gmail.com) -->
+                  <span class="method-name">verifyAddPerson</span>
+                  <span class="parameters">(Mr, Ganga, Prasad, 1.234567809E9, prasad.ganga@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPesrsonsTitle">
+                  </a> <!-- verifyPesrsonsTitle -->
+                  <span class="method-name">verifyPesrsonsTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.capsulecrm.tests.AccountSettingsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="varifyAccPage">
+                  </a> <!-- varifyAccPage -->
+                  <span class="method-name">varifyAccPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllSubPages">
+                  </a> <!-- verifyAllSubPages -->
+                  <span class="method-name">verifyAllSubPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppearancePage">
+                  </a> <!-- verifyAppearancePage -->
+                  <span class="method-name">verifyAppearancePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIntegrationsPage">
+                  </a> <!-- verifyIntegrationsPage -->
+                  <span class="method-name">verifyIntegrationsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOpportunitiesPage(AutomationTest, 30)">
+                  </a> <!-- verifyOpportunitiesPage(AutomationTest, 30) -->
+                  <span class="method-name">verifyOpportunitiesPage</span>
+                  <span class="parameters">(AutomationTest, 30)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTagsPage(Tag1)">
+                  </a> <!-- verifyTagsPage(Tag1) -->
+                  <span class="method-name">verifyTagsPage</span>
+                  <span class="parameters">(Tag1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTaskCategoryPage(Categoty1)">
+                  </a> <!-- verifyTaskCategoryPage(Categoty1) -->
+                  <span class="method-name">verifyTaskCategoryPage</span>
+                  <span class="parameters">(Categoty1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTracksPage(Track1, Task1)">
+                  </a> <!-- verifyTracksPage(Track1, Task1) -->
+                  <span class="method-name">verifyTracksPage</span>
+                  <span class="parameters">(Track1, Task1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserPage(Ganga, Prasad, challaprasad01@gmail.com, gangaprasad)">
+                  </a> <!-- verifyUserPage(Ganga, Prasad, challaprasad01@gmail.com, gangaprasad) -->
+                  <span class="method-name">verifyUserPage</span>
+                  <span class="parameters">(Ganga, Prasad, challaprasad01@gmail.com, gangaprasad)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\NaveenAssignments\capsulecrm.Assignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.capsulecrm.listeners.ItestListenerImplimentation&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.capsulecrm.tests.PersonPageTest&quot;/&gt;
+      &lt;class name=&quot;com.capsulecrm.tests.CasesPageTest&quot;/&gt;
+      &lt;class name=&quot;com.capsulecrm.tests.AccountSettingsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyIntegrationsPage')
+data.setCell(0, 2, 'com.capsulecrm.tests.AccountSettingsPageTest')
+data.setCell(0, 3, 28409);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAllSubPages')
+data.setCell(1, 2, 'com.capsulecrm.tests.AccountSettingsPageTest')
+data.setCell(1, 3, 14212);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAddPerson')
+data.setCell(2, 2, 'com.capsulecrm.tests.PersonPageTest')
+data.setCell(2, 3, 8768);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyAppearancePage')
+data.setCell(3, 2, 'com.capsulecrm.tests.AccountSettingsPageTest')
+data.setCell(3, 3, 8309);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'varifyCreateCases')
+data.setCell(4, 2, 'com.capsulecrm.tests.CasesPageTest')
+data.setCell(4, 3, 7417);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyOpportunitiesPage')
+data.setCell(5, 2, 'com.capsulecrm.tests.AccountSettingsPageTest')
+data.setCell(5, 3, 3859);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyUserPage')
+data.setCell(6, 2, 'com.capsulecrm.tests.AccountSettingsPageTest')
+data.setCell(6, 3, 3545);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyTracksPage')
+data.setCell(7, 2, 'com.capsulecrm.tests.AccountSettingsPageTest')
+data.setCell(7, 3, 3396);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyTaskCategoryPage')
+data.setCell(8, 2, 'com.capsulecrm.tests.AccountSettingsPageTest')
+data.setCell(8, 3, 2904);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyTagsPage')
+data.setCell(9, 2, 'com.capsulecrm.tests.AccountSettingsPageTest')
+data.setCell(9, 3, 2844);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'varifyCasesPageTitle')
+data.setCell(10, 2, 'com.capsulecrm.tests.CasesPageTest')
+data.setCell(10, 3, 1065);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyPesrsonsTitle')
+data.setCell(11, 2, 'com.capsulecrm.tests.PersonPageTest')
+data.setCell(11, 3, 740);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'varifyAccPage')
+data.setCell(12, 2, 'com.capsulecrm.tests.AccountSettingsPageTest')
+data.setCell(12, 3, 141);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyIntegrationsPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyIntegrationsPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPesrsonsTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">varified case page title</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTracksPage(Track1, Task1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyTracksPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAllSubPages</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">AccountPage varified</span>
+                <span class="reporter-method-output">InvaoicePage varified</span>
+                <span class="reporter-method-output">ExportPage varified</span>
+                <span class="reporter-method-output">AppearancePage varified</span>
+                <span class="reporter-method-output">MailDropBoxPage varified</span>
+                <span class="reporter-method-output">UsersPage varified</span>
+                <span class="reporter-method-output">OpportunitiesPage varified</span>
+                <span class="reporter-method-output">TracksPage varified</span>
+                <span class="reporter-method-output">TaskCategoriesPage varified</span>
+                <span class="reporter-method-output">CustomFieldsPage varified</span>
+                <span class="reporter-method-output">TagsPage varified</span>
+                <span class="reporter-method-output">IntegrationsPage varified</span>
+                <span class="reporter-method-output">TrashPage varified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTaskCategoryPage(Categoty1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyTaskCategoryPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTagsPage(Tag1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyTagsPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">varifyCasesPageTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">varified case page title</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">varifyCreateCases(prasad challa, case1, car)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">cases created</span>
+                <span class="reporter-method-output">case name matched</span>
+                <span class="reporter-method-output">person name matched</span>
+                <span class="reporter-method-output">case name matched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyOpportunitiesPage(AutomationTest, 30)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyOpportunitiesPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAppearancePage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyAppearancePage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAddPerson(Mr, Ganga, Prasad, 1.234567809E9, prasad.ganga@gmail.com)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">New Person created</span>
+                <span class="reporter-method-output">Navigate to people page</span>
+                <span class="reporter-method-output">varified add new person</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyUserPage(Ganga, Prasad, challaprasad01@gmail.com, gangaprasad)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifyUserPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.capsulecrm.tests.CasesPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportsFlush</span>
+                <br/>
+                <span class="ignored-method-name">setUpReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.capsulecrm.tests.AccountSettingsPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportsFlush</span>
+                <br/>
+                <span class="ignored-method-name">setUpReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.capsulecrm.tests.PersonPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPesrsonsTitle</span>
+                <span class="method-start">17438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown([TestResult name=verifyPesrsonsTitle status=SUCCESS method=PersonPageTest.verifyPesrsonsTitle()[pri:...)</span>
+                <span class="method-start">18180 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.capsulecrm.tests.CasesPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">varifyCasesPageTitle</span>
+                <span class="method-start">31517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=varifyCasesPageTitle status=SUCCESS method=CasesPageTest.varifyCasesPageTitle()[pri...)</span>
+                <span class="method-start">32583 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.capsulecrm.tests.AccountSettingsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">varifyAccPage</span>
+                <span class="method-start">47953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=varifyAccPage status=SUCCESS method=AccountSettingsPageTest.varifyAccPage()[pri:1, ...)</span>
+                <span class="method-start">48094 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.capsulecrm.tests.PersonPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49956 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddPerson(Mr, Ganga, Prasad, 1.234567809E9, prasad.ganga@gmail.com)</span>
+                <span class="method-start">61836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown([TestResult name=verifyAddPerson status=SUCCESS method=PersonPageTest.verifyAddPerson(java.lang.Stri...)</span>
+                <span class="method-start">70604 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.capsulecrm.tests.CasesPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">71683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">varifyCreateCases(prasad challa, case1, car)</span>
+                <span class="method-start">84789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=varifyCreateCases status=SUCCESS method=CasesPageTest.varifyCreateCases(java.lang.S...)</span>
+                <span class="method-start">92207 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.capsulecrm.tests.AccountSettingsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">93071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllSubPages</span>
+                <span class="method-start">106576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyAllSubPages status=SUCCESS method=AccountSettingsPageTest.verifyAllSubPages()...)</span>
+                <span class="method-start">120788 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">121609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAppearancePage</span>
+                <span class="method-start">134197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyAppearancePage status=SUCCESS method=AccountSettingsPageTest.verifyAppearance...)</span>
+                <span class="method-start">142506 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">143430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserPage(Ganga, Prasad, challaprasad01@gmail.com, gangaprasad)</span>
+                <span class="method-start">155716 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyUserPage status=SUCCESS method=AccountSettingsPageTest.verifyUserPage(java.la...)</span>
+                <span class="method-start">159261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">164927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOpportunitiesPage(AutomationTest, 30)</span>
+                <span class="method-start">177554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyOpportunitiesPage status=SUCCESS method=AccountSettingsPageTest.verifyOpportu...)</span>
+                <span class="method-start">181413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">182312 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTracksPage(Track1, Task1)</span>
+                <span class="method-start">193893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyTracksPage status=SUCCESS method=AccountSettingsPageTest.verifyTracksPage(jav...)</span>
+                <span class="method-start">197289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">199287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTaskCategoryPage(Categoty1)</span>
+                <span class="method-start">212533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyTaskCategoryPage status=SUCCESS method=AccountSettingsPageTest.verifyTaskCate...)</span>
+                <span class="method-start">215437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">219151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTagsPage(Tag1)</span>
+                <span class="method-start">231273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyTagsPage status=SUCCESS method=AccountSettingsPageTest.verifyTagsPage(java.la...)</span>
+                <span class="method-start">234117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">235921 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyIntegrationsPage</span>
+                <span class="method-start">253652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyIntegrationsPage status=SUCCESS method=AccountSettingsPageTest.verifyIntegrat...)</span>
+                <span class="method-start">282061 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.capsulecrm.tests.PersonPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">reportsFlush</span>
+                <span class="method-start">283332 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

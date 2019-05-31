@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[varifyAccPage varified and pass]]>
+    </line>
+    <line>
+      <![CDATA[AccountPage varified]]>
+    </line>
+    <line>
+      <![CDATA[InvaoicePage varified]]>
+    </line>
+    <line>
+      <![CDATA[ExportPage varified]]>
+    </line>
+    <line>
+      <![CDATA[AppearancePage varified]]>
+    </line>
+    <line>
+      <![CDATA[MailDropBoxPage varified]]>
+    </line>
+    <line>
+      <![CDATA[UsersPage varified]]>
+    </line>
+    <line>
+      <![CDATA[OpportunitiesPage varified]]>
+    </line>
+    <line>
+      <![CDATA[TracksPage varified]]>
+    </line>
+    <line>
+      <![CDATA[TaskCategoriesPage varified]]>
+    </line>
+    <line>
+      <![CDATA[CustomFieldsPage varified]]>
+    </line>
+    <line>
+      <![CDATA[TagsPage varified]]>
+    </line>
+    <line>
+      <![CDATA[IntegrationsPage varified]]>
+    </line>
+    <line>
+      <![CDATA[TrashPage varified]]>
+    </line>
+    <line>
+      <![CDATA[verifyAllSubPages varified and pass]]>
+    </line>
+    <line>
+      <![CDATA[verifyAppearancePage]]>
+    </line>
+    <line>
+      <![CDATA[verifyAppearancePage varified and pass]]>
+    </line>
+    <line>
+      <![CDATA[verifyUserPage]]>
+    </line>
+    <line>
+      <![CDATA[verifyUserPage varified and pass]]>
+    </line>
+    <line>
+      <![CDATA[verifyOpportunitiesPage]]>
+    </line>
+    <line>
+      <![CDATA[verifyOpportunitiesPage varified and pass]]>
+    </line>
+    <line>
+      <![CDATA[verifyTracksPage]]>
+    </line>
+    <line>
+      <![CDATA[verifyTracksPage varified and pass]]>
+    </line>
+    <line>
+      <![CDATA[verifyTaskCategoryPage]]>
+    </line>
+    <line>
+      <![CDATA[verifyTaskCategoryPage varified and pass]]>
+    </line>
+    <line>
+      <![CDATA[verifyTagsPage]]>
+    </line>
+    <line>
+      <![CDATA[verifyTagsPage varified and pass]]>
+    </line>
+    <line>
+      <![CDATA[verifyIntegrationsPage]]>
+    </line>
+    <line>
+      <![CDATA[verifyIntegrationsPage varified and pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="187863" started-at="2019-05-31T10:46:40Z" finished-at="2019-05-31T10:49:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="187863" started-at="2019-05-31T10:46:40Z" finished-at="2019-05-31T10:49:48Z">
+      <class name="com.capsulecrm.tests.AccountSettingsPageTest">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUpReport" is-config="true" duration-ms="346" started-at="2019-05-31T16:16:39Z" finished-at="2019-05-31T16:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUp" is-config="true" duration-ms="13494" started-at="2019-05-31T16:16:40Z" finished-at="2019-05-31T16:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="varifyAccPage()[pri:1, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="varifyAccPage" duration-ms="130" started-at="2019-05-31T16:16:53Z" finished-at="2019-05-31T16:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyAccPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="tearDown" is-config="true" duration-ms="780" started-at="2019-05-31T16:16:53Z" finished-at="2019-05-31T16:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=varifyAccPage status=SUCCESS method=AccountSettingsPageTest.varifyAccPage()[pri:1, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[varifyAccPage varified and pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUp" is-config="true" duration-ms="11863" started-at="2019-05-31T16:16:54Z" finished-at="2019-05-31T16:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAllSubPages()[pri:2, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="verifyAllSubPages" duration-ms="13775" started-at="2019-05-31T16:17:06Z" finished-at="2019-05-31T16:17:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[AccountPage varified]]>
+            </line>
+            <line>
+              <![CDATA[InvaoicePage varified]]>
+            </line>
+            <line>
+              <![CDATA[ExportPage varified]]>
+            </line>
+            <line>
+              <![CDATA[AppearancePage varified]]>
+            </line>
+            <line>
+              <![CDATA[MailDropBoxPage varified]]>
+            </line>
+            <line>
+              <![CDATA[UsersPage varified]]>
+            </line>
+            <line>
+              <![CDATA[OpportunitiesPage varified]]>
+            </line>
+            <line>
+              <![CDATA[TracksPage varified]]>
+            </line>
+            <line>
+              <![CDATA[TaskCategoriesPage varified]]>
+            </line>
+            <line>
+              <![CDATA[CustomFieldsPage varified]]>
+            </line>
+            <line>
+              <![CDATA[TagsPage varified]]>
+            </line>
+            <line>
+              <![CDATA[IntegrationsPage varified]]>
+            </line>
+            <line>
+              <![CDATA[TrashPage varified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAllSubPages -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="tearDown" is-config="true" duration-ms="801" started-at="2019-05-31T16:17:20Z" finished-at="2019-05-31T16:17:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllSubPages status=SUCCESS method=AccountSettingsPageTest.verifyAllSubPages()[pri:2, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf] output=AccountPage varified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyAllSubPages varified and pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUp" is-config="true" duration-ms="13333" started-at="2019-05-31T16:17:21Z" finished-at="2019-05-31T16:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAppearancePage()[pri:3, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="verifyAppearancePage" duration-ms="7242" started-at="2019-05-31T16:17:34Z" finished-at="2019-05-31T16:17:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyAppearancePage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAppearancePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="tearDown" is-config="true" duration-ms="807" started-at="2019-05-31T16:17:41Z" finished-at="2019-05-31T16:17:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAppearancePage status=SUCCESS method=AccountSettingsPageTest.verifyAppearancePage()[pri:3, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf] output=verifyAppearancePage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyAppearancePage varified and pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUp" is-config="true" duration-ms="11865" started-at="2019-05-31T16:17:43Z" finished-at="2019-05-31T16:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="verifyUserPage" duration-ms="5226" started-at="2019-05-31T16:17:55Z" data-provider="AddUsers" finished-at="2019-05-31T16:18:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganga]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prasad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[challaprasad01@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gangaprasad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyUserPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="tearDown" is-config="true" duration-ms="5034" started-at="2019-05-31T16:18:00Z" finished-at="2019-05-31T16:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserPage status=SUCCESS method=AccountSettingsPageTest.verifyUserPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf] output=verifyUserPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyUserPage varified and pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUp" is-config="true" duration-ms="12246" started-at="2019-05-31T16:18:05Z" finished-at="2019-05-31T16:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyOpportunitiesPage(java.lang.String, java.lang.String)[pri:5, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="verifyOpportunitiesPage" duration-ms="3919" started-at="2019-05-31T16:18:17Z" data-provider="MileStone" finished-at="2019-05-31T16:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AutomationTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyOpportunitiesPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOpportunitiesPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="tearDown" is-config="true" duration-ms="1440" started-at="2019-05-31T16:18:21Z" finished-at="2019-05-31T16:18:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOpportunitiesPage status=SUCCESS method=AccountSettingsPageTest.verifyOpportunitiesPage(java.lang.String, java.lang.String)[pri:5, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf] output=verifyOpportunitiesPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyOpportunitiesPage varified and pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUp" is-config="true" duration-ms="13636" started-at="2019-05-31T16:18:23Z" finished-at="2019-05-31T16:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTracksPage(java.lang.String, java.lang.String)[pri:6, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="verifyTracksPage" duration-ms="2999" started-at="2019-05-31T16:18:36Z" data-provider="TracksData" finished-at="2019-05-31T16:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Track1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Task1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyTracksPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTracksPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="tearDown" is-config="true" duration-ms="1827" started-at="2019-05-31T16:18:39Z" finished-at="2019-05-31T16:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTracksPage status=SUCCESS method=AccountSettingsPageTest.verifyTracksPage(java.lang.String, java.lang.String)[pri:6, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf] output=verifyTracksPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyTracksPage varified and pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUp" is-config="true" duration-ms="11503" started-at="2019-05-31T16:18:41Z" finished-at="2019-05-31T16:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTaskCategoryPage(java.lang.String)[pri:7, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="verifyTaskCategoryPage" duration-ms="2935" started-at="2019-05-31T16:18:53Z" data-provider="TaskCategory" finished-at="2019-05-31T16:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Categoty1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyTaskCategoryPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTaskCategoryPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="tearDown" is-config="true" duration-ms="3502" started-at="2019-05-31T16:18:56Z" finished-at="2019-05-31T16:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTaskCategoryPage status=SUCCESS method=AccountSettingsPageTest.verifyTaskCategoryPage(java.lang.String)[pri:7, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf] output=verifyTaskCategoryPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyTaskCategoryPage varified and pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUp" is-config="true" duration-ms="11836" started-at="2019-05-31T16:18:59Z" finished-at="2019-05-31T16:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTagsPage(java.lang.String)[pri:8, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="verifyTagsPage" duration-ms="2070" started-at="2019-05-31T16:19:11Z" data-provider="TagName" finished-at="2019-05-31T16:19:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tag1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyTagsPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTagsPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="tearDown" is-config="true" duration-ms="1769" started-at="2019-05-31T16:19:13Z" finished-at="2019-05-31T16:19:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTagsPage status=SUCCESS method=AccountSettingsPageTest.verifyTagsPage(java.lang.String)[pri:8, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf] output=verifyTagsPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyTagsPage varified and pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="setUp" is-config="true" duration-ms="13310" started-at="2019-05-31T16:19:15Z" finished-at="2019-05-31T16:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyIntegrationsPage()[pri:9, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="verifyIntegrationsPage" duration-ms="18320" started-at="2019-05-31T16:19:28Z" finished-at="2019-05-31T16:19:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyIntegrationsPage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyIntegrationsPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="tearDown" is-config="true" duration-ms="804" started-at="2019-05-31T16:19:47Z" finished-at="2019-05-31T16:19:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIntegrationsPage status=SUCCESS method=AccountSettingsPageTest.verifyIntegrationsPage()[pri:9, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf] output=verifyIntegrationsPage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[verifyIntegrationsPage varified and pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="reportsFlush()[pri:0, instance:com.capsulecrm.tests.AccountSettingsPageTest@6e8dacdf]" name="reportsFlush" is-config="true" duration-ms="456" started-at="2019-05-31T16:19:48Z" finished-at="2019-05-31T16:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsFlush -->
+      </class> <!-- com.capsulecrm.tests.AccountSettingsPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
